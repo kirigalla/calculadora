@@ -1,0 +1,21 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple_700</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/purple_700</item>
+    </style>
+
+    <style name="CalculatorNumbers" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/purple_700</item>
+        <item name="colorControlHighlight">@color/purple_700</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="CalculatorOperations" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/purple_700</item>
+        <item name="colorControlHighlight">@color/purple_700</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
